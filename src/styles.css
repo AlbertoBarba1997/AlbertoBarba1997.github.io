@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~animate.css/animate.min.css";
+
+
+*{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+
+}
+
+body{
+  background-color: #333;
+}
+
+span{
+  color: #b4875c;
+}
+
+
+
