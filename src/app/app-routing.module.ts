@@ -11,6 +11,7 @@ import { AboutComponent } from './components/about/about.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { CertificadosComponent } from './components/certificados/certificados.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'tecnologias', component: TecnologiasComponent},
   { path: 'contacto', component: ContactoComponent},
-  { path: 'proyectos', component: ProyectosComponent}
+  { path: 'proyectos', component: ProyectosComponent},
+  { path: 'certificados', component: CertificadosComponent},
 
 ];
 
