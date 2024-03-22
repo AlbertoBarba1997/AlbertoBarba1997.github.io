@@ -21,6 +21,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SwichComponent } from './components/traductor/swich/swich.component';
 import { CertificadosComponent } from './components/certificados/certificados.component';
+import { FlechaComponent } from './components/flecha/flecha.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { CertificadosComponent } from './components/certificados/certificados.co
     ProyectosComponent,
     ContactoComponent,
     SwichComponent,
-    CertificadosComponent
+    CertificadosComponent,
+    FlechaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+.flecha {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.flecha i {
+  color: #acacac;
+}
+
+@media screen and (max-width: 1000px) {
+  .flecha {
+      display: none;
+  }
+}
+
+
+@media screen and (min-width: 1573px) {
+  .flecha {
+    padding-top: 250px;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+
