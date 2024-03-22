@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
+
+
 
 @Component({
   selector: 'app-sobremi',
@@ -6,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./sobremi.component.css']
 })
 export class SobremiComponent {
-
+  ngOnInit() {
+    AOS.init();
+  }
 }

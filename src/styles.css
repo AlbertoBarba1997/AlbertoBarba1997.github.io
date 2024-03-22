@@ -1,6 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~animate.css/animate.min.css";
 @import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "~aos/dist/aos.css";
+
 
 
 *{
@@ -16,6 +18,10 @@ span{
 
 .fondo-negro{
   background-color: #333;
+}
+
+.naranja{
+  color: #b4875c;
 }
 
 
