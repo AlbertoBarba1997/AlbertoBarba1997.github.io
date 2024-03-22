@@ -65,6 +65,7 @@
   .about .me-about p {
       margin-left: 0;
       margin-right: 0;
+      font-size: 14px;
   }
 }
 
