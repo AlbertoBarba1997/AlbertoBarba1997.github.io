@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 40px;
 }
 
 .flecha i {
@@ -20,8 +20,8 @@
 
 @media screen and (min-width: 1573px) {
   .flecha {
-    padding-top: 250px;
-    padding-bottom: 90px;
+    padding-top: 240px;
+    padding-bottom: 50px;
   }
 }
 

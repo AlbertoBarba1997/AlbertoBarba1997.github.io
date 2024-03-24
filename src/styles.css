@@ -11,6 +11,11 @@
 
 }
 
+/* Haz el favicon más grande */
+link[rel="icon"] {
+  width: 32px;
+  height: 32px;
+}
 
 span{
   color: #b4875c;

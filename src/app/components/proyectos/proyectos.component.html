@@ -1,1 +1,24 @@
-<p>proyectos works!</p>
+<section data-aos="fade-up" class="proyect">
+  <div *ngIf="isLoading" class="servicios-card">
+    <h2>Cargando...</h2>
+  </div>
+  <div *ngFor="let project of projects" class="servicios-card">
+    <div class="image-container">
+      <img [src]="project.imageSrc" [alt]="project.name" />
+      <div class="icons-container">
+        <ul></ul>
+        <p *ngFor="let tech of project.technologies">&middot; {{tech}}</p>
+      </div>
+    </div>
+    <h3 [innerHTML]="project.name.replace('\n', '<br>')"></h3>
+    <a [href]="project.githubLink" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a [href]="project.liveDemoLink" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-browser-chrome"></i>
+    </a>
+  </div>
+</section>
+<div data-aos="fade-up" class="ver-mas">
+  <p (click)="handleClick()">See all <span>projects</span></p>
+</div>

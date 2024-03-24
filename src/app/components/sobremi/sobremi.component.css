@@ -42,7 +42,6 @@
 
   .about {
       flex-direction: column;
-
       text-align: justify;
   }
 
@@ -69,6 +68,4 @@
   }
 }
 
-b{
-  color: orange;
-}
+
