@@ -31,27 +31,27 @@ export class ProyectosComponent implements OnInit {
     setTimeout(() => {
       this.projects = [
         {
-          name: 'Frisbillanas web \n(Trabajo de Final de Grado)',
-          imageSrc: '../../../assets/proyecto/pr1.png',
-          technologies: ['Angular', 'HTTP Client' , 'HTML, CSS, TypeScript, JQuery', 'Bootstrap'],
+          name: 'Frisbillanas web y API REST \n(Trabajo de Final de Grado)',
+          imageSrc: '../../../assets/proyecto/pr11.png',
+          technologies: ['Página web: Angular', 'Servidor: NodeJS', 'Base de Datos: MongoDB (NoSQL)', 'HTTP Client' ,'JWT Autentication Tokens', 'Bootstrap'],
           githubLink: 'https://github.com/AlbertoBarba1997/frisbillanas-web',
           liveDemoLink: 'https://docs.google.com/document/d/11sLG9QT-Rkgwf2QYRPXhLa6QtUttn2nv1TMegPTDj48/edit?usp=sharing'
         },
         {
-          name: 'Frisbillanas API REST \n(Base de Datos y Servidor)',
-          imageSrc: '../../../assets/proyecto/pr3.png',
-          technologies: ['Node JS', 'MongoDB (NoSQL)', 'Postman', 'JWT Autentication Tokens'],
-          githubLink: 'https://github.com/AlbertoBarba1997/API_REST_Frisbillanas',
-          liveDemoLink: 'https://docs.google.com/document/d/11sLG9QT-Rkgwf2QYRPXhLa6QtUttn2nv1TMegPTDj48/edit?usp=sharing'
-        },
-        {
           name: 'Porfolio',
-          imageSrc: '../../../assets/proyecto/pr2.png',
+          imageSrc: '../../../assets/proyecto/pr22.png',
           technologies: ['Angular'],
           githubLink: 'https://github.com/AlbertoBarba1997/AlbertoBarba1997.github.io',
           liveDemoLink: 'https://albertobarba1997.github.io/'
         },
-        // Agrega más proyectos según sea necesario
+        {
+          name: 'Portal de Cita Previa: \nJunta de Andalucía',
+          imageSrc: '../../../assets/proyecto/pr33.png',
+          technologies: ['Java Spring', 'SQL Server'],
+          githubLink: '',
+          liveDemoLink: 'https://tuturno.juntadeandalucia.es/citaprevia/#no-back-button'
+        }
+
       ];
       this.isLoading = false;
     }, 2000); // Simulamos un retraso de 2 segundos para cargar los proyectos
