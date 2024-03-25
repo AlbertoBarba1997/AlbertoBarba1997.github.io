@@ -1,3 +1,41 @@
-.footer{
-  padding-top: 100%;
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 2rem;
+}
+
+footer .logo-footer img {
+  height: 150px;
+  transition: 0.5s;
+}
+
+footer .logo-footer img:hover {
+  transform: scale(1.2);
+}
+
+footer .social a {
+  padding: 10px;
+}
+
+footer .social a i {
+  color: #acacac;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+footer .social a i:hover {
+  color: #ffffff;
+}
+
+footer a i {
+  color: #acacac;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+footer a i:hover {
+  color: #ffffff;
 }
