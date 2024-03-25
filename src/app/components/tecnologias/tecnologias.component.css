@@ -106,3 +106,56 @@
 .informacion-lenguajes .logos-l .jira img:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 500px) {
+
+  .informacion-lenguajes .logos-l .java img {
+    width: 60px;
+    margin-left: 20px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .angular img {
+    width: 132px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .spring img {
+    width: 92px;
+    height: auto;
+    margin-left: 12px;
+
+  }
+  .informacion-lenguajes .logos-l .html img {
+    width: 160px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .node img {
+    width: 90px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .sql img {
+    width: 100px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .git img {
+    width: 100px;
+    height: auto;
+
+  }
+  .informacion-lenguajes .logos-l .jira img {
+    width: 100px;
+    height: auto;
+
+  }
+
+
+
+
+
+
+
+}
