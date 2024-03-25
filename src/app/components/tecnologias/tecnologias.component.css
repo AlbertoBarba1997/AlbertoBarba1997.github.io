@@ -25,6 +25,8 @@
 
 .informacion-lenguajes .logos-l .java img {
   width: 70px;
+  margin-left: 30px;
+
   height: auto;
   transition: 0.5s;
 }
