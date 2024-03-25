@@ -1,1 +1,33 @@
-<p>contacto works!</p>
+<app-seccion name="contactame"></app-seccion>
+
+<div class="contacto-container">
+  <div class="ficha-contacto">
+    <img class="avatar" src="../../../assets/avatar/laptop.png">
+
+    <div class="input-group">
+      <div>
+        <input type="text" class="form-control bg-dark text-white correo" id="correo"
+          value="jalbertobarba1997@gmail.com" aria-label="Input group example" aria-describedby="basic-addon1" #correoInput readonly>
+
+        <button width="16" height="16" class="btn btn-secondary bi bi-clipboard" (click)="copiarCorreo(correoInput)">
+
+        </button>
+      </div>
+
+      <div class="alert alert-success alert-dismissible fade show alerta bg-dark text-white" *ngIf="mostrarAlerta" role="alert">
+        Correo copiado!
+        <button type="button" class="btn-close" aria-label="Close" (click)="cerrarAlerta()"></button>
+      </div>
+
+      <a href="https://www.linkedin.com/in/tuperfil" target="_blank" class="btn btn-dark rounded-3 linkedin">
+        <span class="bi bi-linkedin"></span> Ir a perfil de LinkedIn
+      </a>
+
+      <a href="ruta-al-curriculum.pdf" download class="btn btn-dark rounded-3  cv">
+        <span class="bi bi-file-earmark-person"></span> Ver curriculum
+      </a>
+    </div>
+  </div>
+</div>
+
+
