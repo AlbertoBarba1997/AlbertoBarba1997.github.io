@@ -1,0 +1,38 @@
+.experiencia-container {
+  position: relative;
+  text-align: center;
+}
+
+
+.experiencia-container img{
+  margin-top: -1rem;
+  border-radius: 10px;
+  width: 600px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  transition: filter 0.5s;
+  position: relative;
+}
+
+@media screen and (max-width: 550px) {
+
+  .experiencia-container img{
+    margin-top: -50px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 0.5rem;
+    transition: filter 0.5s;
+    position: relative;
+  }
+}
+
+  @media screen and (max-width: 410px) {
+
+    .experiencia-container img{
+      margin-top: -50px;
+      width: 350px;
+      height: auto;
+
+    }
+}

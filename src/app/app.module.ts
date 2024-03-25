@@ -23,6 +23,7 @@ import { SwichComponent } from './components/traductor/swich/swich.component';
 import { CertificadosComponent } from './components/certificados/certificados.component';
 import { FlechaComponent } from './components/flecha/flecha.component';
 import { SeccionComponent } from './components/principal/seccion/seccion.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { SeccionComponent } from './components/principal/seccion/seccion.compone
     SwichComponent,
     CertificadosComponent,
     FlechaComponent,
-    SeccionComponent
+    SeccionComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
