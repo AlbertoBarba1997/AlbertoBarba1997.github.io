@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-
-
 import { HttpClient } from '@angular/common/http';
-
 
 @Component({
   selector: 'app-cabecera',
@@ -14,15 +11,6 @@ export class CabeceraComponent {
   constructor(private http: HttpClient) {}
 
   descargarPDF() {
-    /*
-    const url = '../../../assets/CV_Alberto_Barba.pdf'; // Ruta relativa al archivo PDF en la carpeta assets
-    const nombreArchivo = 'CV_Alberto_Barba.pdf'; // Nombre que le darás al archivo descargado
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = nombreArchivo;
-    link.click();
-    */
-
     const rutaArchivo = '../../../assets/CV/CV_Alberto_Barba.pdf';
 
     this.http.get(rutaArchivo, { responseType: 'blob' })
@@ -37,10 +25,13 @@ export class CabeceraComponent {
         document.body.removeChild(enlaceDescarga);
         window.URL.revokeObjectURL(url);
       });
-
-
-
   }
 
-
+  cerrarMenu() {
+    // Verificar si el dispositivo es un móvil
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      const menuToggle = document.getElementById('menuToggle');
+      menuToggle?.click(); // Cerrar el menú desplegable
+    }
+  }
 }

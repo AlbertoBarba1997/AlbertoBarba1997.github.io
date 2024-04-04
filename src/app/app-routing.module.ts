@@ -7,7 +7,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 
 //Contenido individual
-import { AboutComponent } from './components/about/about.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
@@ -16,7 +15,6 @@ import { CertificadosComponent } from './components/certificados/certificados.co
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'home', component: HomeComponent},
-  { path: 'about', component: AboutComponent},
   { path: 'tecnologias', component: TecnologiasComponent},
   { path: 'contacto', component: ContactoComponent},
   { path: 'proyectos', component: ProyectosComponent},
